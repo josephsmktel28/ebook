@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('coba', function () {
-    return "Haloo Bang" ;
+    return "Haloo Guys, Apa Kabar Kalian?" ;
 });
