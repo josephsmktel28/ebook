@@ -28,6 +28,6 @@ Route::post('/books',[BookController::class,'store']);
 Route::put('/books/{id}',[BookController::class,'update']);
 Route::delete('/books/{id}',[BookController::class,'destroy']);
 
-Route::resource('books', BookController::class)->execept(
+Route::resource('books', BookController::class)->except(
     ['create','edit']
 );
